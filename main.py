@@ -1,6 +1,13 @@
 import logging
 from telegram import Update, Bot, KeyboardButton, ReplyKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    MessageHandler,
+    CallbackContext,
+    ConversationHandler,
+    Filters,
+)
 from telegram.error import TelegramError
 
 # Ваш токен бота
